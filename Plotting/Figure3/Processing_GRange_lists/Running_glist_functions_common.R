@@ -1,0 +1,48 @@
+
+# Get the functions
+source("~/Project1/Paper_Source_Scripts/glist_functions.R")
+
+# Load the BG3 objects
+# Proximal and Distal is 1
+# Distal Only is 2
+# Proximal Only is 3
+# Neither is 4
+# So distal_only will be list[[2]]
+# proximal_all will be sort(c(list[[1]],list[[3]]))
+
+# Common
+load("BG3_shared_list.Rda")
+load("S2_shared_list.Rda")
+
+# Loading common resources
+
+# loading p5k (BG3 promoter contacts over 5kb away for distal function)
+BG3_distal_contacts <- get(load("/home/jw18713/Project1/Paper_Rda_Stuff/BG3/over5k_contacts.Rda"))
+# loading p5k for S2
+S2_distal_contacts <- get(load("/home/jw18713/Project1/Paper_Rda_Stuff/S2/over5k_contacts.Rda"))
+
+# expression data for both cell lines
+expression_data <- read.csv("/home/jw18713/Project1/data/gene_expression_data.csv")
+
+# And finally, running the things themselves
+# Putative Enhancers
+
+# For BG3 shared enhancers
+# Distal
+BG3_common_dist <- distal_expression(BG3_shared[[2]], g_exp = expression_data,
+  distal_contacts = BG3_distal_contacts, line = "BG3")
+save(BG3_common_dist, file = "~/rerun_glists/common/BG3_common_dist.Rda")
+# Proximal
+BG3_common_prox <- proximal_expression(sort(c(BG3_shared[[1]],BG3_shared[[3]])),
+  g_exp = expression_data, line = "BG3")
+save(BG3_common_prox, file = "~/rerun_glists/common/BG3_common_prox.Rda")
+
+# For S2 shared enhancers
+# Distal
+S2_common_dist <- distal_expression(S2_shared[[2]], g_exp = expression_data,
+  distal_contacts = S2_distal_contacts, line = "S2")
+save(S2_common_dist, file = "~/rerun_glists/common/S2_common_dist.Rda")
+# Proximal
+S2_common_prox <- proximal_expression(sort(c(S2_shared[[1]],S2_shared[[3]])),
+  g_exp = expression_data, line = "S2")
+save(S2_common_prox, file = "~/rerun_glists/common/S2_common_prox.Rda")

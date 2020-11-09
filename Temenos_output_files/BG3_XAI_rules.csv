@@ -1,0 +1,50 @@
+Rule Id,Antecedent 1,Antecedent 2,Antecedent 3,Dominance,Frequency,Winning,Result
+0,H3K27ac is high,H3K36me3 is low,H3K9me1 is low,2,4134,159,1
+1,H3K27ac is high,H3K27me3 is low,H3K79me2 is medium,1,8403,35,1
+2,H3K27me3 is low,H3K36me3 is medium,H3K4me3 is high,2,11323,49,1
+3,H3K27me2 is medium,H3K27me3 is medium,H3K9ac is medium,3,30502,200,0
+4,H3K4me2 is high,H3K4me3 is high,H3K79me1 is medium,3,12611,1523,1
+5,H2Av is low,H3K4me1 is high,H3K79me2 is medium,1,7561,72,1
+6,H3K18ac is high,H3K36me1 is medium,H3K9ac is high,3,12817,525,1
+7,H3K4me1 is medium,H3K4me2 is medium,,4,41175,18094,0
+8,H3K18ac is high,H3K4me2 is high,H4K20me1 is medium,1,8075,57,1
+9,H3K36me1 is medium,H3K9me2 is medium,,2,38297,384,0
+10,H3K27me1 is medium,,,2,49854,4024,0
+11,H3K36me1 is medium,H3K36me3 is medium,H3K4me2 is high,3,7505,128,1
+12,H3 is low,H3K9acS10P is high,H3K9me3 is medium,2,8110,114,1
+13,H2Bubi is high,H3K79me1 is high,,1,17004,2724,0
+14,H3K4me2 is high,H3K79me1 is medium,H3K79me3 is high,2,9469,15,1
+15,H2Bubi is medium,H3K9me1 is low,H4K8ac is high,1,8143,27,1
+16,H3K27ac is high,H3K4me2 is high,H3K79me1 is low,1,3092,12,1
+17,H3K18ac is medium,H3K4me3 is high,H3K9me1 is medium,3,31265,271,0
+18,H3 is medium,H3K4me1 is medium,H3K9ac is medium,3,32052,183,0
+19,H3K18ac is low,H3K4me1 is low,,2,21671,0,0
+20,H3K23ac is low,H3K9me3 is medium,,2,13416,595,1
+21,H3K23ac is high,H3K9me1 is high,,1,16778,585,0
+22,H1 is low,H3K18ac is high,H3K36me1 is low,1,5390,41,1
+23,H3K18ac is medium,H3K9me1 is medium,H4K20me1 is medium,3,31263,113,0
+24,H3K27ac is high,H3K79me1 is medium,H3K79me2 is high,2,13352,66,1
+25,H3K23ac is medium,H3K79me1 is medium,H3K79me2 is medium,2,32805,160,0
+26,H3K23ac is medium,H3K27ac is medium,H3K9ac is medium,3,32134,218,0
+27,H3 is high,,,4,28011,9716,0
+28,H2Bubi is medium,H3K4me2 is medium,H3K9ac is medium,3,33940,431,0
+29,H3K4me1 is high,H3K79me1 is low,,2,7241,473,1
+30,H3 is low,H3K79me1 is medium,H3K79me3 is high,2,8846,26,1
+31,H3K23ac is low,H3K36me3 is medium,H3K9me1 is low,3,9355,436,1
+32,H3 is high,H3K36me1 is low,,1,16038,0,0
+33,H3 is medium,H3K4me1 is medium,H3K9me1 is medium,3,30581,88,0
+34,H3 is medium,H3K36me1 is medium,H3K4me3 is high,2,30465,469,0
+35,H1 is low,H3K18ac is high,H3K36me3 is medium,4,10835,660,1
+36,H3 is medium,H3K4me1 is medium,H3K79me1 is medium,3,30122,57,0
+37,H3K18ac is high,H3K4me1 is high,H3K79me1 is medium,3,11742,604,1
+38,H3K4me2 is low,H3K9me2 is low,,1,15532,645,0
+39,H3 is medium,H3K18ac is medium,H3K79me2 is medium,3,30736,117,0
+40,H3K18ac is high,H3K79me3 is medium,H4K16ac is high,1,15093,176,1
+41,H3K23ac is medium,H3K9acS10P is medium,H3K9me1 is medium,2,30925,91,0
+42,H2Bubi is medium,H3 is low,H3K4me1 is high,2,10104,782,1
+43,H3K27me3 is high,H3K4me3 is low,,1,17781,302,0
+44,H2Av is low,H2Bubi is medium,H3K4me3 is high,1,12346,33,1
+45,H3K36me3 is medium,H3K9ac is high,,5,19752,6261,1
+46,H3K27ac is medium,H3K4me1 is medium,,4,40408,2137,0
+47,H3K23ac is low,H3K4me1 is high,H4K16ac is high,2,5000,147,1
+48,H3K4me1 is low,,,4,30008,15794,0
